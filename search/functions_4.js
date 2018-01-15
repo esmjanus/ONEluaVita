@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['game_5f_5f_5fbg0',['game___bg0',['../group__game.html#gade2fc05b21cc31905b7c5de352d3dadc',1,'game.h']]],
+  ['game_5f_5f_5fchangeinfo',['game___changeinfo',['../group__game.html#ga55114f6dc4cc0bde0a48a75854898254',1,'game___changeinfo(STRING path):&#160;game.h'],['../group__game.html#gac3e119cace154feedb38005dcd9e978f',1,'game___changeinfo(STRING path, STRING gameid):&#160;game.h']]],
+  ['game_5f_5f_5fclose',['game___close',['../group__game.html#gaa848e79523362d78a19850e05f715ed8',1,'game.h']]],
+  ['game_5f_5f_5fdelete',['game___delete',['../group__game.html#ga1b64409054830d1c98ee77382ee6fff6',1,'game.h']]],
+  ['game_5f_5f_5fexists',['game___exists',['../group__game.html#gaff2208d142381ec8519ed89bd65ff457',1,'game.h']]],
+  ['game_5f_5f_5ffrif',['game___frif',['../group__game.html#ga3a1d20d39b2ee10054275b4fe77ee29e',1,'game.h']]],
+  ['game_5f_5f_5fgeticon0',['game___geticon0',['../group__game.html#gac5d3230a07a25af7d2740fd00e142fb5',1,'game.h']]],
+  ['game_5f_5f_5fgetpic0',['game___getpic0',['../group__game.html#ga6b541de26b269852c893db3baa580b0b',1,'game.h']]],
+  ['game_5f_5f_5fgetpic1',['game___getpic1',['../group__game.html#gadbb3dec7717fa4d3f3482818b272a8a1',1,'game.h']]],
+  ['game_5f_5f_5finfo',['game___info',['../group__game.html#gaa3f200d9e12bda290e57476677b0e1f9',1,'game.h']]],
+  ['game_5f_5f_5finstall',['game___install',['../group__game.html#ga1a052ff586dec3f24018ff11b6bf6905',1,'game___install(STRING src):&#160;game.h'],['../group__game.html#ga1c2340b99c32525eef11c5fd1a10cced',1,'game___install(STRING src, BOOLEAN check):&#160;game.h'],['../group__game.html#ga402f3d902e75fe049b10e8e874331d76',1,'game___install(STRING src, NUMBER size):&#160;game.h'],['../group__game.html#gad2c552f1b84d44545bf2a6a54f5cf887',1,'game___install(STRING src, NUMBER size, BOOLEAN check):&#160;game.h']]],
+  ['game_5f_5f_5finstalldir',['game___installdir',['../group__game.html#gac5fafbfc1ee260b466cbe582af061350',1,'game.h']]],
+  ['game_5f_5f_5flaunch',['game___launch',['../group__game.html#gaadd8e5bd95f66f4168349371c645d25c',1,'game.h']]],
+  ['game_5f_5f_5flist',['game___list',['../group__game.html#ga57770fa2e9de7d12be60bd567cc6550e',1,'game.h']]],
+  ['game_5f_5f_5fmount',['game___mount',['../group__game.html#gaa82c010b07419e02ed6e1a875e3a2d38',1,'game.h']]],
+  ['game_5f_5f_5fmove',['game___move',['../group__game.html#ga9a0b2814ec291dbd207773a5da920ec9',1,'game___move(STRING gameid, NUMBER toggle):&#160;game.h'],['../group__game.html#gaf863d567c4062d4465bf9bcca468a39f',1,'game___move(STRING gameid, NUMBER toggle, NUMBER size):&#160;game.h']]],
+  ['game_5f_5f_5fopen',['game___open',['../group__game.html#gaefceb53e2b96f71c76233f1f87ec2688',1,'game.h']]],
+  ['game_5f_5f_5frefresh',['game___refresh',['../group__game.html#gae03ed31d90241813d8feba7fa3eb3134',1,'game.h']]],
+  ['game_5f_5f_5frif',['game___rif',['../group__game.html#gac0a274cbc8113e1207ef1e20b5ea1f4f',1,'game.h']]],
+  ['game_5f_5f_5fsceid',['game___sceid',['../group__game.html#gaac16892f5a44dca13d5d98bb0b63048e',1,'game.h']]],
+  ['game_5f_5f_5fsetsfo',['game___setsfo',['../group__game.html#ga863e4ef20f9b20b10b4acbdc1732e394',1,'game___setsfo(STRING path, STRING Param, STRING value):&#160;game.h'],['../group__game.html#gadb4eaa0d288772e70f10263cc4635ad7',1,'game___setsfo(STRING path, STRING Param, NUMBER value):&#160;game.h']]],
+  ['game_5f_5f_5fstartup',['game___startup',['../group__game.html#gab7650f9a6b3c068c8bf57198b9f7028d',1,'game.h']]],
+  ['game_5f_5f_5fumount',['game___umount',['../group__game.html#ga60cab8a7e48274efd2b05fae22346c5d',1,'game.h']]]
+];

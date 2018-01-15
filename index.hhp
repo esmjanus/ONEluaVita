@@ -1,0 +1,77 @@
+[OPTIONS]
+Compiled file=C:\Users\Davis\Dropbox\Dev Vita\ONEluaVita_Docu\CHM\ONEluaVita_Doc_En.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=OneLua
+
+[WINDOWS]
+main="OneLua","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+samples.html
+group__batt.html
+group__buttons.html
+group__cam.html
+group__channel.html
+group__color.html
+group__console.html
+group__draw.html
+group__files.html
+group__font.html
+group__ftp.html
+group__game.html
+group__hardware.html
+group__http.html
+group__image.html
+group__ini.html
+group__link.html
+group__maps.html
+group__math.html
+group__motion.html
+group__os.html
+group__osk.html
+group__power.html
+group__screen.html
+group__socket.html
+group__sound.html
+group__splash.html
+group__themes.html
+group__thread.html
+group__timers.html
+group__touch.html
+group__wlan.html
+dir_d0411a3330e1b0f1a8484884e468d215.html
+index.html
+pages.html
+modules.html
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
+nav_h.png
+nav_f.png
+bc_s.png
+doxygen.png
+closed.png
+open.png
+bdwn.png
+sync_on.png
+sync_off.png
+ftv2blank.png
+ftv2doc.png
+ftv2folderclosed.png
+ftv2folderopen.png
+ftv2lastnode.png
+ftv2link.png
+ftv2mlastnode.png
+ftv2mnode.png
+ftv2node.png
+ftv2plastnode.png
+ftv2pnode.png
+ftv2vertline.png
+ftv2splitbar.png
