@@ -101,5 +101,6 @@ while true do -- Main Bucle.
 	if buttons.released.start then break end -- back to main.
 
 end
-buttons.homepopup(1) -- Enable out to livearea.
+
 buttons.analogtodpad(60)
+buttons.homepopup(1) -- Enable out to livearea.

@@ -44,8 +44,8 @@ function usbMassStorage()
 		// 1:	USBDEVICE_MODE_GAME_CARD
 		// 2:	USBDEVICE_MODE_SD2VITA
 		// 3:	USBDEVICE_MODE_PSVSD
-		"ux0:","ur0:","uma0:","gro0:","grw0:"
 	]]
+	buttons.homepopup(0) -- Block out to livearea.
 	local mode_usb = -1
 	local title = string.format("USB Connection Mode")
 	local w,h = screen.textwidth(title,1) + 120,145
@@ -93,6 +93,7 @@ function usbMassStorage()
 
 	buttons.read()--fflush
 	usb.stop()
+	buttons.homepopup(1) -- Enable out to livearea.
 	return true
 end
 
