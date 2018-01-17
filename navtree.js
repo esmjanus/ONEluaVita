@@ -13,12 +13,6 @@ var NAVTREE =
         [ "Legal", "index.html#legal_sub", null ]
       ] ]
     ] ],
-    [ "Samples", "samples.html", [
-      [ "Examples of use of OneLua", "samples.html#intro_samples", [
-        [ "Buttons reading", "samples.html#sample_buttons", null ],
-        [ "Colors", "samples.html#sample_colores", null ]
-      ] ]
-    ] ],
     [ "Modules", "modules.html", "modules" ]
   ] ]
 ];

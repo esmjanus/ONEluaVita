@@ -18,14 +18,6 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Legal"><param name="Local" value="index.html#legal_sub"><param name="ImageNumber" value="1"></OBJECT>
     </UL>
   </UL>
-<LI><OBJECT type="text/sitemap"><param name="Name" value="Samples"><param name="Local" value="samples.html"><param name="ImageNumber" value="11"></OBJECT>
-  <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Examples of use of OneLua"><param name="Local" value="samples.html#intro_samples"><param name="ImageNumber" value="1"></OBJECT>
-    <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Buttons reading"><param name="Local" value="samples.html#sample_buttons"><param name="ImageNumber" value="1"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Colors"><param name="Local" value="samples.html#sample_colores"><param name="ImageNumber" value="1"></OBJECT>
-    </UL>
-  </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Modules"><param name="Local" value="modules.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="battery"><param name="Local" value="group__batt.html"><param name="ImageNumber" value="1"></OBJECT>

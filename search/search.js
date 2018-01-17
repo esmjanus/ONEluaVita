@@ -10,7 +10,7 @@ var indexSectionsWithContent =
   0: "bcdfghilmopstw",
   1: "bcdfghilmopstw",
   2: "bcdfghilmopstw",
-  3: "os"
+  3: "o"
 };
 
 var indexSectionNames =

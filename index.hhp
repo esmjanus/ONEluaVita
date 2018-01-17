@@ -13,7 +13,6 @@ Title=OneLua
 main="OneLua","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
-samples.html
 group__batt.html
 group__buttons.html
 group__cam.html
@@ -47,7 +46,6 @@ group__touch.html
 group__wlan.html
 dir_d0411a3330e1b0f1a8484884e468d215.html
 index.html
-pages.html
 modules.html
 tab_a.png
 tab_b.png
