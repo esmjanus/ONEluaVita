@@ -74,7 +74,11 @@ function usbMassStorage()
 	end--while
 
 	local conexion = usb.start(mode_usb)
-	if conexion == -1 then os.message("Error... Conexion Failed",0) return false end
+	if conexion == -1 then
+		buttons.homepopup(1) -- Enable out to livearea.
+		os.message("Error... Conexion Failed",0)
+		return false
+	end
 
 	local titlew = string.format("USB Connection Enabled")
 	local w,h = screen.textwidth(titlew,1) + 30,70
