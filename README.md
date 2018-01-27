@@ -20,6 +20,7 @@ Here are the main functions of ONElua for PSP but of course, with new and specia
 	* Camera (Front and back).
 	* Motion (Accelerometer, gyroscope).
 	* Touch (Front and back).
+- You can expand the functions of the interpreter when loading external or additional modules, by means of the function **os.requiere()**, you can add your own modules in C, easily and load in real time!
 - Many constants have been updated, please check the constatnts you are using with new changes on the Documentation.
 - New functions for the camera module and updated incorporated constants for the module.
 - Optimization of the files module (Please check our Documentation).
