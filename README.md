@@ -55,6 +55,9 @@ Here are the main functions of ONElua for PSP but of course, with new and specia
 	* C bit operations: "and: &, or: |, not: ~, shift left: <<, right shift: >>"
 	* Operations continue, "skips a cycle", in any loop.
 
+### External | Extra Module ###
+In the [Modules](https://github.com/ONElua/ONEluaVita/tree/master/modules) section, you can find a quick explanation on how to create or use a module that provides ONElua with additional features.
+
 ### TO-DO ###
 - Fully optimize the code and release the source code (This task is delayed due to lack of time).
 
