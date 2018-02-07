@@ -6,6 +6,9 @@ Extra Modules for ONElua Vita.
 ONElua allows the expansion of its features and functions through the use of prx modules, following a structure, you can add your own functions to the interpreter in an easy and simple way, you can add in real time.
 
 ### Official Modules ###
+- AdHoc Local Network:
+	* Allows the interpreter to communicate with other consoles in the local network.
+	* Everything, credit of this module go to **TheFloW**.
 - USB Mass Storage:
 	* Allows the interpreter mass storage USB connections.
 	* Everything, credit of this module go to **TheFloW**.
