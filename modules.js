@@ -1,5 +1,6 @@
 var modules =
 [
+    [ "adhoc", "group__adhoc.html", "group__adhoc" ],
     [ "battery", "group__batt.html", "group__batt" ],
     [ "buttons", "group__buttons.html", "group__buttons" ],
     [ "cam", "group__cam.html", "group__cam" ],

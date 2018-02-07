@@ -4,6 +4,27 @@
 <param name="FrameName" value="right">
 </OBJECT>
 <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html"><param name="Name" value="adhoc"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga7327f5bbe32b5d4c0524c66ddfe598a9"><param name="Name" value="adhoc.available"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga17162f72f277ca8e758fd6e7e99ac32a"><param name="Name" value="adhoc.getmac"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gac8790c70cfea70066776cee267096c75"><param name="Name" value="adhoc.getrequest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga7c8353874d2d9be4ccb5770019d49a4d"><param name="Name" value="adhoc.init"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gacf99a583645d7e44a6d9c4579fc8f4b5"><param name="Name" value="adhoc.recv"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gabcf770623b6396651b813f79459bb70f"><param name="Name" value="adhoc.scan"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gaa52f1992cc683544fc4efa68f6a5f25b"><param name="Name" value="adhoc.send"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gad06cfd986d87a7bd0e541d7c50e717da"><param name="Name" value="adhoc.sendrequest"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga9d385d8115c858068cb0af2ddd0d523c"><param name="Name" value="adhoc.term"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga7327f5bbe32b5d4c0524c66ddfe598a9"><param name="Name" value="adhoc.available"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga17162f72f277ca8e758fd6e7e99ac32a"><param name="Name" value="adhoc.getmac"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gac8790c70cfea70066776cee267096c75"><param name="Name" value="adhoc.getrequest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga7c8353874d2d9be4ccb5770019d49a4d"><param name="Name" value="adhoc.init"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gacf99a583645d7e44a6d9c4579fc8f4b5"><param name="Name" value="adhoc.recv"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gabcf770623b6396651b813f79459bb70f"><param name="Name" value="adhoc.scan"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gaa52f1992cc683544fc4efa68f6a5f25b"><param name="Name" value="adhoc.send"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#gad06cfd986d87a7bd0e541d7c50e717da"><param name="Name" value="adhoc.sendrequest"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__adhoc.html#ga9d385d8115c858068cb0af2ddd0d523c"><param name="Name" value="adhoc.term"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__batt.html"><param name="Name" value="batt"></OBJECT>
   <UL>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="group__batt.html#gad4fa622421c7e9b2574c8028524db2e7"><param name="Name" value="batt.charging"></OBJECT>
@@ -327,13 +348,15 @@
     <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#ga4b449db74cda3cfc8e477588c5b65c12"><param name="Name" value="http.getfile"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gaac10e5a0363248c7eff7b9c49b6013aa"><param name="Name" value="http.post"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gac13e62c1d6932ddd9203a3c5e5bd57f5"><param name="Name" value="http.postfile"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gadb003bb6764bfd0eb8a1ce1cb77216b4"><param name="Name" value="http.upload"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#ga5e973c3fd8181a535edc1661bbad113a"><param name="Name" value="http.send"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#ga00fe6713a4130c3efb8675cc4e0fee7f"><param name="Name" value="http.upload"></OBJECT>
   </UL>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gabb15696d8b30ecfea0486f5a86759b60"><param name="Name" value="http.get"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#ga4b449db74cda3cfc8e477588c5b65c12"><param name="Name" value="http.getfile"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gaac10e5a0363248c7eff7b9c49b6013aa"><param name="Name" value="http.post"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gac13e62c1d6932ddd9203a3c5e5bd57f5"><param name="Name" value="http.postfile"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#gadb003bb6764bfd0eb8a1ce1cb77216b4"><param name="Name" value="http.upload"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#ga5e973c3fd8181a535edc1661bbad113a"><param name="Name" value="http.send"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="group__http.html#ga00fe6713a4130c3efb8675cc4e0fee7f"><param name="Name" value="http.upload"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__hardware.html#ga8ea34e5985b675ff93442dec98a13e80"><param name="Name" value="hw.board"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__hardware.html#ga5153a1c44e217cc5732bd7b4e2f2a836"><param name="Name" value="hw.emumc"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Local" value="group__hardware.html#gaff6ac3f74645a2c8e57af8a6046c28be"><param name="Name" value="hw.headphone"></OBJECT>

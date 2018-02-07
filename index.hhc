@@ -6,7 +6,7 @@
 <UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="ONElua Vita Documentation"><param name="Local" value="index.html"><param name="ImageNumber" value="11"></OBJECT>
   <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Version 4R0"><param name="Local" value="index.html#current_sec"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Version 4R1"><param name="Local" value="index.html#current_sec"><param name="ImageNumber" value="1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Seguridad"><param name="Local" value="index.html#security_sec"><param name="ImageNumber" value="1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Introduction"><param name="Local" value="index.html#intro_sec"><param name="ImageNumber" value="1"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Installation"><param name="Local" value="index.html#install_sec"><param name="ImageNumber" value="1"></OBJECT>
@@ -20,6 +20,20 @@
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Modules"><param name="Local" value="modules.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc"><param name="Local" value="group__adhoc.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.init"><param name="Local" value="group__adhoc.html#ga7c8353874d2d9be4ccb5770019d49a4d"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.init"><param name="Local" value="group__adhoc.html#ga5faa23a2fe0171cc9b4a5896d654afdb"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.getmac"><param name="Local" value="group__adhoc.html#ga17162f72f277ca8e758fd6e7e99ac32a"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.scan"><param name="Local" value="group__adhoc.html#gabcf770623b6396651b813f79459bb70f"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.available"><param name="Local" value="group__adhoc.html#ga7327f5bbe32b5d4c0524c66ddfe598a9"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.sendrequest"><param name="Local" value="group__adhoc.html#gad06cfd986d87a7bd0e541d7c50e717da"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.getrequest"><param name="Local" value="group__adhoc.html#gac8790c70cfea70066776cee267096c75"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.send"><param name="Local" value="group__adhoc.html#gaa52f1992cc683544fc4efa68f6a5f25b"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.send"><param name="Local" value="group__adhoc.html#ga41450a7d9d0731b32d516807ca1aee58"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.recv"><param name="Local" value="group__adhoc.html#gacf99a583645d7e44a6d9c4579fc8f4b5"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="adhoc.term"><param name="Local" value="group__adhoc.html#ga9d385d8115c858068cb0af2ddd0d523c"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="battery"><param name="Local" value="group__batt.html"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="batt.exists"><param name="Local" value="group__batt.html#gaeffc6d7cac348642f3bad8b27b01afef"><param name="ImageNumber" value="11"></OBJECT>
@@ -253,7 +267,8 @@
     <LI><OBJECT type="text/sitemap"><param name="Name" value="http.post"><param name="Local" value="group__http.html#ga733d2255b2e5b4043bc454ad1bd4c1d1"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="http.postfile"><param name="Local" value="group__http.html#gac13e62c1d6932ddd9203a3c5e5bd57f5"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="http.postfile"><param name="Local" value="group__http.html#ga5d902a5a6f5e412c1ce6849786779bf5"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="http.upload"><param name="Local" value="group__http.html#gadb003bb6764bfd0eb8a1ce1cb77216b4"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="http.upload"><param name="Local" value="group__http.html#ga00fe6713a4130c3efb8675cc4e0fee7f"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="http.send"><param name="Local" value="group__http.html#ga5e973c3fd8181a535edc1661bbad113a"><param name="ImageNumber" value="11"></OBJECT>
     </UL>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="image"><param name="Local" value="group__image.html"><param name="ImageNumber" value="1"></OBJECT>
     <UL>

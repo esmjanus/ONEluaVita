@@ -133,9 +133,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ga5d902a5a6f5e412c1ce6849786779bf5"><td class="memItemLeft" align="right" valign="top">BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__http.html#ga5d902a5a6f5e412c1ce6849786779bf5">http.postfile</a> (STRING url, STRING path, STRING data_out, NUMBER data_len)</td></tr>
 <tr class="memdesc:ga5d902a5a6f5e412c1ce6849786779bf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send data file indicated a Web address and then download the server response.  <a href="#ga5d902a5a6f5e412c1ce6849786779bf5">More...</a><br /></td></tr>
 <tr class="separator:ga5d902a5a6f5e412c1ce6849786779bf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadb003bb6764bfd0eb8a1ce1cb77216b4"><td class="memItemLeft" align="right" valign="top">BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__http.html#gadb003bb6764bfd0eb8a1ce1cb77216b4">http.upload</a> (STRING url, STRING src, STRING id_file, STRING dest_path)</td></tr>
-<tr class="memdesc:gadb003bb6764bfd0eb8a1ce1cb77216b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload the indicated file to the indicated web address and then download the server's response.  <a href="#gadb003bb6764bfd0eb8a1ce1cb77216b4">More...</a><br /></td></tr>
-<tr class="separator:gadb003bb6764bfd0eb8a1ce1cb77216b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga00fe6713a4130c3efb8675cc4e0fee7f"><td class="memItemLeft" align="right" valign="top">BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__http.html#ga00fe6713a4130c3efb8675cc4e0fee7f">http.upload</a> (STRING url, STRING src, STRING dest_path, STRING id_file)</td></tr>
+<tr class="memdesc:ga00fe6713a4130c3efb8675cc4e0fee7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upload the indicated file to the indicated web address and then download the server's response.  <a href="#ga00fe6713a4130c3efb8675cc4e0fee7f">More...</a><br /></td></tr>
+<tr class="separator:ga00fe6713a4130c3efb8675cc4e0fee7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e973c3fd8181a535edc1661bbad113a"><td class="memItemLeft" align="right" valign="top">BOOLEAN&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__http.html#ga5e973c3fd8181a535edc1661bbad113a">http.send</a> (STRING url, STRING src, STRING id_file, STRING data, NUMBER data_len)</td></tr>
+<tr class="memdesc:ga5e973c3fd8181a535edc1661bbad113a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send binary data to the indicated web address and then download the server's response.  <a href="#ga5e973c3fd8181a535edc1661bbad113a">More...</a><br /></td></tr>
+<tr class="separator:ga5e973c3fd8181a535edc1661bbad113a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Functions related to Hypertext Transfer Protocol. All actions performed by these functions include an automatic integrated manager cookies. </p>
@@ -379,12 +382,63 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="gadb003bb6764bfd0eb8a1ce1cb77216b4"></a>
+<a class="anchor" id="ga00fe6713a4130c3efb8675cc4e0fee7f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">BOOLEAN http.upload </td>
+          <td>(</td>
+          <td class="paramtype">STRING&#160;</td>
+          <td class="paramname"><em>url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">STRING&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">STRING&#160;</td>
+          <td class="paramname"><em>dest_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">STRING&#160;</td>
+          <td class="paramname"><em>id_file</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Upload the indicated file to the indicated web address and then download the server's response. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">url</td><td>The Web address file receiver. </td></tr>
+    <tr><td class="paramname">src</td><td>The path of the file to upload. </td></tr>
+    <tr><td class="paramname">dest_path</td><td>The path where the file is saved (you must include the file name). </td></tr>
+    <tr><td class="paramname">id_file</td><td>The file identifier to upload. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><b>true</b> if the file was downloaded successfully, <b>false</b> otherwise. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>This function can use the <em>onNetGetFile()</em> callback, more info <a class="el" href="index.html#call_sub">here </a>. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ga5e973c3fd8181a535edc1661bbad113a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BOOLEAN http.send </td>
           <td>(</td>
           <td class="paramtype">STRING&#160;</td>
           <td class="paramname"><em>url</em>, </td>
@@ -405,7 +459,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">STRING&#160;</td>
-          <td class="paramname"><em>dest_path</em>&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">NUMBER&#160;</td>
+          <td class="paramname"><em>data_len</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -415,13 +475,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Upload the indicated file to the indicated web address and then download the server's response. </p>
+<p>Send binary data to the indicated web address and then download the server's response. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">url</td><td>The Web address file receiver. </td></tr>
     <tr><td class="paramname">src</td><td>The path of the file to upload. </td></tr>
     <tr><td class="paramname">id_file</td><td>The file identifier to upload. </td></tr>
-    <tr><td class="paramname">dest_path</td><td>The path where the file is saved (you must include the file name). </td></tr>
+    <tr><td class="paramname">data</td><td>The information that will be sent to the Web server. </td></tr>
+    <tr><td class="paramname">data_len</td><td>The size of the information that will be sent to the Web server, this is optional. </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['power',['power',['../group__power.html',1,'']]]
+  ['os',['os',['../group__os.html',1,'']]],
+  ['osk',['osk',['../group__osk.html',1,'']]]
 ];

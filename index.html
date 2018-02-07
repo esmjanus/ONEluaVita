@@ -111,20 +111,26 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="current_sec"></a>
-Version 4R0</h1>
+Version 4R1</h1>
 <p>Actually ONElua Vita has the following main features:</p><ul>
-<li><b>ONElua Vita 4R0</b></li>
+<li><b>ONElua Vita 4R1</b></li>
 <li>Ported to be 100% compatible with taiHEN and use the maximum of functions.</li>
 <li>Handling peripherals:<ul>
+<li>AdHoc (local network).</li>
 <li>Physical buttons or controls.</li>
 <li>Camera (Front and back).</li>
 <li>Motion (Accelerometer, gyroscope).</li>
 <li>Touch (Front and back).</li>
 </ul>
 </li>
-<li>Many constants have been updated, please check the constatnts you are using with new changes on the Documentation.</li>
-<li>New functions for the camera module and updated incorporated constants for the module.</li>
-<li>Optimization of the files module (Please check our Documentation).</li>
+<li>Many constants have been updated, please check the constants you are using with new changes on the Documentation.</li>
+<li>Added the 'adhoc' module, which allows ONElua to communicate with other consoles in the local network.</li>
+<li>Optimization of the camera, files and http module (Please review our Documentation again).</li>
+<li>The HTTP module received new functions among which we highlight:<ul>
+<li><a class="el" href="group__http.html#ga00fe6713a4130c3efb8675cc4e0fee7f">http.upload()</a> It allows uploading a file to a web server.</li>
+<li><a class="el" href="group__http.html#ga5e973c3fd8181a535edc1661bbad113a">http.send()</a> It allows to send binary data to a web server.</li>
+</ul>
+</li>
 <li>The OSK (On Screen Keyboard) module has been re-written, now the OSK loads with the system language set on the PSVita.</li>
 <li>The OS module got new functions from wich we highlight:<ul>
 <li><a class="el" href="group__os.html#ga9d3b5b14bdbd2a6a0c81bf2108803ecd">os.getreg()</a>, <a class="el" href="group__os.html#gad85af10b49fd5a444c057b8d50e50645">os.setreg()</a> for the Registry Manager (/CONFIG/).</li>
@@ -153,7 +159,7 @@ Version 4R0</h1>
 <li>Added the ability to update or rebuild the 'LiveArea' database <a class="el" href="group__os.html#gacf360321713d68a6ec7069396070d764">os.updatedb()</a> &amp; <a class="el" href="group__os.html#ga1edbab6aa07fe2c9ca347f713b46b296">os.rebuilddb()</a>.</li>
 <li>Added the possibility of reload the config.txt from taiHEN <a class="el" href="group__os.html#ga379fc8769e00ed3bfc3b34a3ef204b5b">os.taicfgreload()</a>.</li>
 <li>Added the possibility of Install/Update/Uninstall CustomThemes of 'LiveArea'.</li>
-<li>Added ONEdebugger - Real-time debugger errors in your scripts.</li>
+<li>Added ONEdebugger - Real-time debugger errors in your scripts, now support USB &amp; FTP connection.</li>
 <li>Optimization of our Callbacks and the possibility to stop or abort processes in the callback, check the Callbacks section for more information..</li>
 <li>Added the possibility to load maps (tiles) and draw.</li>
 <li>Added the Lua Bit library that allows level operations bit by bit.</li>
@@ -184,7 +190,7 @@ Installation</h1>
 <dl class="section warning"><dt>Warning</dt><dd>Whenever you work with scripts is advisable to ensure that they are encoded in <b>UTF-8 without BOOM</b>, otherwise special characters (accents and ñ for example) are not displayed.</dd></dl>
 <h1><a class="anchor" id="samples_sec"></a>
 Samples</h1>
-<p>In the release version (ONELuaVita4R0.vpk) we have bundled many samples using most of the ONElua functions.</p>
+<p>In the release version (ONELuaVita4R1.vpk) we have bundled many samples using most of the ONElua functions.</p>
 <h1><a class="anchor" id="misc_sec"></a>
 Considerations of ONElua</h1>
 <p>As an information note, this documentation will not find information on using Lua own functions (such as string module functions, math, io, etc), only the functions of the interpreter. For more information about Lua functions, visit the <a href="http://www.lua.org/manual/5.1/" target="_blank">page official </a>.</p>
@@ -248,6 +254,12 @@ Callbacks</h2>
 <li><em>onNetGetFile</em>(size, written) It runs when a network file is downloaded with the function <a class="el" href="group__http.html#ga4b449db74cda3cfc8e477588c5b65c12">http.getfile()</a>.<ul>
 <li><em>size:</em> File size in bytes (if size can't be detected, it will return 0).</li>
 <li><em>written:</em> written bytes.</li>
+<li><em>speed:</em> Speed in kb/s.</li>
+<li><em>step:</em> State in which the callback is:<ul>
+<li>1: Status, Uploading to the server.</li>
+<li>2: Status, Downloading from the server.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>

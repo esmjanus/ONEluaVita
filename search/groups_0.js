@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['battery',['battery',['../group__batt.html',1,'']]],
-  ['buttons',['buttons',['../group__buttons.html',1,'']]]
+  ['adhoc',['adhoc',['../group__adhoc.html',1,'']]]
 ];

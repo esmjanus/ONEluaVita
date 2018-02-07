@@ -2,7 +2,7 @@ var NAVTREE =
 [
   [ "OneLua", "index.html", [
     [ "ONElua Vita Documentation", "index.html", [
-      [ "Version 4R0", "index.html#current_sec", null ],
+      [ "Version 4R1", "index.html#current_sec", null ],
       [ "Seguridad", "index.html#security_sec", null ],
       [ "Introduction", "index.html#intro_sec", null ],
       [ "Installation", "index.html#install_sec", null ],
@@ -19,8 +19,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"group__batt.html",
-"group__image.html#gaff203410c91dd59b1aa6426941f1c2c0"
+"group__adhoc.html",
+"group__image.html#gab14ffce86dbcf980f779b66bba27b6e1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

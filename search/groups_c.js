@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['themes',['themes',['../group__themes.html',1,'']]],
-  ['thread',['thread',['../group__thread.html',1,'']]],
-  ['timers',['timers',['../group__timers.html',1,'']]],
-  ['touch',['touch',['../group__touch.html',1,'']]]
+  ['screen',['screen',['../group__screen.html',1,'']]],
+  ['socket',['socket',['../group__socket.html',1,'']]],
+  ['sound',['sound',['../group__sound.html',1,'']]],
+  ['splash',['splash',['../group__splash.html',1,'']]]
 ];
