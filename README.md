@@ -1,10 +1,10 @@
-# ONEluaVita [![Github latest downloads](https://img.shields.io/github/downloads/ONElua/ONEluaVita/total.svg)](https://github.com/ONElua/ONEluaVita/releases/latest)
+# ONEluaVita V4R1 [![Github latest downloads](https://img.shields.io/github/downloads/ONElua/ONEluaVita/total.svg)](https://github.com/ONElua/ONEluaVita/releases/latest)
 
 Lua Interpreter for PlayStation®Vita.
 
-![header](preview_1.jpeg)
+![header](preview_1.png)
 
-![header](preview_2.jpeg)
+![header](preview_2.png)
 
 ### Description ###
 ONELua is a multiplatform project designed to facilitate programming for both programmers and those who are not, with the arrival of Henkaku by Team Molecule, finally vita was accessible and any user could use Homebrew's, at that time we decided that it was time to port ONElua and create a full version for PlayStation Vita.
@@ -16,13 +16,18 @@ Here are the main functions of ONElua for PSP but of course, with new and specia
 ### Main features ###
 - Ported to be 100% compatible with taiHEN and use the maximum of functions.
 - Handling peripherals:
+	* AdHoc (local network).
 	* Physical buttons or controls.
 	* Camera (Front and back).
 	* Motion (Accelerometer, gyroscope).
 	* Touch (Front and back).
-- Many constants have been updated, please check the constatnts you are using with new changes on the Documentation.
-- New functions for the camera module and updated incorporated constants for the module.
-- Optimization of the files module (Please check our Documentation).
+- You can expand the functions of the interpreter when loading external or additional modules, by means of the function **os.requiere()**, you can add your own modules in C, easily and load in real time!
+- Many constants have been updated, please check the constants you are using with new changes on the Documentation.
+- Added the 'adhoc' module, which allows ONElua to communicate with other consoles in the local network.
+- Optimization of the camera, files and http module (Please review our Documentation again).
+- The HTTP module received new functions among which we highlight:
+	* http.upload() It allows uploading a file to a web server.
+	* http.send() It allows to send binary data to a web server.
 - The OSK (On Screen Keyboard) module has been re-written, now the OSK loads with the system language set on the PSVita.
 - The OS module got new functions from wich we highlight:
 	* os.getreg(), os.setreg() for the Registry Manager (/CONFIG/).
@@ -45,7 +50,7 @@ Here are the main functions of ONElua for PSP but of course, with new and specia
 - Added the ability to update or rebuild the 'LiveArea' database os.updatedb() & os.rebuilddb().
 - Added the possibility of reload the config.txt from taiHEN os.taicfgreload().
 - Added the possibility of Install/Update/Uninstall CustomThemes of 'LiveArea'.
-- Added ONEdebugger - Real-time debugger errors in your scripts. 
+- Added ONEdebugger - Real-time debugger errors in your scripts, now support USB & FTP connection. 
 - Optimization of our Callbacks and the possibility to stop or abort processes in the callback, check the Callbacks section for more information..
 - Added the possibility to load maps (tiles) and draw.
 - Added the Lua Bit library that allows level operations bit by bit.
@@ -53,6 +58,9 @@ Here are the main functions of ONElua for PSP but of course, with new and specia
 	* C Type operations: "sum: +=, subtraction:-=, multiplication: *=, division: /=, power: ^=, mod: %=, different: !=, division does not float: \"
 	* C bit operations: "and: &, or: |, not: ~, shift left: <<, right shift: >>"
 	* Operations continue, "skips a cycle", in any loop.
+
+### External | Extra Module ###
+In the [Modules](https://github.com/ONElua/ONEluaVita/tree/master/modules) section, you can find a quick explanation on how to create or use a module that provides ONElua with additional features.
 
 ### TO-DO ###
 - Fully optimize the code and release the source code (This task is delayed due to lack of time).
